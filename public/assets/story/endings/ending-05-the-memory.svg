@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-05" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <radialGradient id="memory-glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="45%" stop-color="#818cf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-05)" />
+  <circle cx="400" cy="200" r="260" fill="url(#memory-glow)" />
+
+  <!-- Floating Crystal Holographic Shards of Past Memories -->
+  <!-- Fragment 1: The Research Lab smiling faces -->
+  <polygon points="180,90 280,60 320,160 220,190" fill="#0284c7" opacity="0.35" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="205" y="130" fill="#e0f2fe" font-family="monospace" font-size="11" opacity="0.85">[RESEARCH LAB 04]</text>
+  <text x="210" y="150" fill="#7dd3fc" font-family="sans-serif" font-size="9" opacity="0.75">"Kita pasti berhasil..."</text>
+
+  <!-- Fragment 2: The Neural Interface helmet -->
+  <polygon points="520,70 640,110 610,210 490,170" fill="#4338ca" opacity="0.35" stroke="#818cf8" stroke-width="1.5" />
+  <text x="515" y="140" fill="#e0e7ff" font-family="monospace" font-size="11" opacity="0.85">[NEURAL INTERFACE]</text>
+  <text x="520" y="160" fill="#a5b4fc" font-family="sans-serif" font-size="9" opacity="0.75">"Selamatkan mereka dulu."</text>
+
+  <!-- Fragment 3: The Promise -->
+  <polygon points="340,180 460,180 480,260 320,260" fill="#0369a1" opacity="0.4" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="350" y="225" fill="#f8fafc" font-family="monospace" font-size="12" opacity="0.95">"AKU AKAN KEMBALI"</text>
+
+  <!-- Ground reflection -->
+  <path d="M 0 350 L 800 350 M 0 390 L 800 390 M 0 430 L 800 430" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- The Runner kneeling down with arms wide, absorbing memories -->
+  <g transform="translate(375, 290)">
+    <ellipse cx="25" cy="55" rx="35" ry="6" fill="#000" opacity="0.7" />
+    <path d="M 12 25 L 25 10 L 38 25 L 35 48 L 15 48 Z" fill="#0284c7" />
+    <circle cx="25" cy="4" r="10" fill="#0369a1" />
+    <circle cx="25" cy="4" r="4" fill="#38bdf8" />
+    <!-- Light beaming from chest up into shards -->
+    <path d="M 25 18 L -30 -110 M 25 18 L 90 -110" stroke="#38bdf8" stroke-width="1.5" opacity="0.6" stroke-dasharray="3 3" />
+  </g>
+
+  <text x="40" y="55" fill="#38bdf8" font-family="'Chakra Petch', monospace" font-size="14" letter-spacing="4">ENDING 05 // THE MEMORY</text>
+  <text x="40" y="80" fill="#cbd5e1" font-family="sans-serif" font-size="12">"Sekarang... aku ingat semuanya."</text>
+</svg>

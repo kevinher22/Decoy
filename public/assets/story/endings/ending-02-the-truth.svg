@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-02" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="40%" stop-color="#090d1f" />
+      <stop offset="100%" stop-color="#180a2b" />
+    </linearGradient>
+    <radialGradient id="data-core" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="45%" stop-color="#3b82f6" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#1e1b4b" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+    <filter id="bloom-02">
+      <feGaussianBlur stdDeviation="6" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg-02)" />
+  <circle cx="400" cy="190" r="240" fill="url(#data-core)" />
+
+  <!-- Massive Holographic Server Terminals cascading data code -->
+  <g opacity="0.35" stroke="#06b6d4" stroke-width="1">
+    <line x1="120" y1="40" x2="120" y2="340" />
+    <line x1="160" y1="60" x2="160" y2="340" />
+    <line x1="640" y1="50" x2="640" y2="340" />
+    <line x1="680" y1="80" x2="680" y2="340" />
+  </g>
+
+  <!-- Flowing digital telemetry glyphs -->
+  <g fill="#38bdf8" opacity="0.4" font-family="monospace" font-size="10">
+    <text x="130" y="90">0x7F RECOVERY: ACTIVE</text>
+    <text x="130" y="110">SYS.CONSCIOUSNESS == TRUE</text>
+    <text x="130" y="130">SUBJECT_STATE: AWAKE</text>
+    <text x="610" y="100">TRUTH_LOG // ACCESS GRANTED</text>
+    <text x="610" y="120">PREVIOUS_CYCLES: 742</text>
+    <text x="610" y="140">REASON: SAVE_THEM</text>
+  </g>
+
+  <!-- Floor ground grid -->
+  <path d="M 0 350 L 800 350 M 0 380 L 800 380 M 0 420 L 800 420" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.5" />
+  <line x1="400" y1="350" x2="400" y2="450" stroke="#3b82f6" stroke-opacity="0.4" />
+  <line x1="280" y1="350" x2="200" y2="450" stroke="#3b82f6" stroke-opacity="0.25" />
+  <line x1="520" y1="350" x2="600" y2="450" stroke="#3b82f6" stroke-opacity="0.25" />
+
+  <!-- The Player facing the center entity -->
+  <g transform="translate(260, 275)">
+    <ellipse cx="15" cy="65" rx="26" ry="5" fill="#000" opacity="0.6" />
+    <rect x="5" y="15" width="20" height="34" rx="6" fill="#0284c7" />
+    <rect x="7" y="-2" width="16" height="15" rx="4" fill="#0369a1" />
+    <rect x="11" y="2" width="10" height="4" rx="1.5" fill="#38bdf8" filter="url(#bloom-02)" />
+    <line x1="10" y1="49" x2="6" y2="65" stroke="#0284c7" stroke-width="4" stroke-linecap="round" />
+    <line x1="20" y1="49" x2="24" y2="65" stroke="#0284c7" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- The Entity standing tall in strong backlight and cyber fog -->
+  <g transform="translate(480, 240)">
+    <!-- Shadow aura -->
+    <ellipse cx="25" cy="100" rx="35" ry="7" fill="#000" opacity="0.8" />
+    <path d="M 10 95 C -10 60 5 15 25 0 C 45 15 60 60 40 95 Z" fill="#030712" />
+    <path d="M 0 95 C 10 40 18 20 25 5 C 32 20 40 40 50 95 Z" fill="#090d1f" opacity="0.8" />
+    <!-- Piercing red eyes looking right at the player -->
+    <circle cx="19" cy="22" r="3" fill="#ef4444" filter="url(#bloom-02)" />
+    <circle cx="28" cy="22" r="3" fill="#ef4444" filter="url(#bloom-02)" />
+    <!-- Data tendrils connecting them -->
+    <path d="M -15 60 Q -100 70 -195 70" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6" />
+  </g>
+
+  <text x="40" y="55" fill="#06b6d4" font-family="'Chakra Petch', monospace" font-size="14" letter-spacing="4">ENDING 02 // THE TRUTH</text>
+  <text x="40" y="80" fill="#94a3b8" font-family="sans-serif" font-size="12">"Aku akhirnya tahu apa yang selama ini mengejarku."</text>
+</svg>

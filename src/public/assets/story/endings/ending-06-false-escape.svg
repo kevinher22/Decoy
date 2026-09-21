@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-06" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#18000a" />
+    </linearGradient>
+    <radialGradient id="sun-illusion" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#450a0a" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky with an eerie false sunrise tearing at the seams -->
+  <rect width="800" height="450" fill="url(#bg-06)" />
+  <circle cx="400" cy="160" r="200" fill="url(#sun-illusion)" />
+
+  <!-- The Endless Looping Road: Road repeats indefinitely back to where it began -->
+  <polygon points="400,160 380,450 420,450" fill="#0f172a" />
+  <path d="M 0 340 L 400 160 L 800 340" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.4" />
+
+  <!-- Glitching repetition lines showing the simulation loop -->
+  <g stroke="#ef4444" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.6">
+    <ellipse cx="400" cy="280" rx="120" ry="25" fill="none" />
+    <ellipse cx="400" cy="340" rx="220" ry="45" fill="none" />
+    <ellipse cx="400" cy="400" rx="340" ry="70" fill="none" />
+  </g>
+
+  <!-- The Player stopping in dawning horror, staring into the infinite loop -->
+  <g transform="translate(385, 270)">
+    <ellipse cx="15" cy="55" rx="20" ry="5" fill="#000" opacity="0.8" />
+    <path d="M 8 20 L 15 10 L 22 20 L 20 45 L 10 45 Z" fill="#0284c7" />
+    <circle cx="15" cy="4" r="8" fill="#0369a1" />
+    <circle cx="15" cy="4" r="2.5" fill="#38bdf8" />
+  </g>
+
+  <!-- Distant shadow watching from the horizon center -->
+  <g transform="translate(396, 148)">
+    <path d="M 4 12 C 0 8 0 2 4 0 C 8 2 8 8 4 12 Z" fill="#000" />
+    <circle cx="3" cy="3" r="0.8" fill="#ef4444" />
+    <circle cx="5" cy="3" r="0.8" fill="#ef4444" />
+  </g>
+
+  <!-- Terrifying Truth Glitch Banner -->
+  <rect x="250" y="70" width="300" height="36" rx="6" fill="#000" stroke="#ef4444" stroke-width="2" opacity="0.9" />
+  <text x="400" y="93" fill="#ef4444" font-family="'Chakra Petch', monospace" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="4">YOU NEVER ESCAPED</text>
+
+  <text x="40" y="55" fill="#f59e0b" font-family="'Chakra Petch', monospace" font-size="14" letter-spacing="4">ENDING 06 // FALSE ESCAPE</text>
+  <text x="40" y="80" fill="#cbd5e1" font-family="sans-serif" font-size="12">"Tempat ini... Ini bukan jalan keluar."</text>
+</svg>
